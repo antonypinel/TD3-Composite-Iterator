@@ -7,4 +7,10 @@ public class Diode extends Composant {
     public Diode() {
 
     }
+
+    /** Methods **/
+
+    public void Executer() {
+        System.out.println("Diode");
+    }
 }

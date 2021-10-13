@@ -7,4 +7,10 @@ public class Resistance extends Composant {
     public Resistance() {
 
     }
+
+    /** Methods **/
+
+    public void Executer() {
+        System.out.printf("Resistance");
+    }
 }

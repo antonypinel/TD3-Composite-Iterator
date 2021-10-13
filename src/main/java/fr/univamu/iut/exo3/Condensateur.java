@@ -7,4 +7,10 @@ public class Condensateur extends Composant {
     public Condensateur() {
 
     }
+
+    /** Methods **/
+
+    public void Executer() {
+        System.out.println("Condensateur");
+    }
 }

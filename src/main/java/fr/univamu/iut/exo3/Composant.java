@@ -8,8 +8,8 @@ public abstract class Composant {
 
     }
 
-    public abstract void Executer();
-
     /** Methods **/
+
+    public abstract void Executer();
 
 }
