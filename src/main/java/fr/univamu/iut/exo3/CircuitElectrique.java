@@ -11,4 +11,17 @@ public class CircuitElectrique extends Composant {
         this.mesComposants = mesComposants;
     }
 
+    public void Ajouter(Composant composant) {
+        this.mesComposants.add(composant);
+    }
+    public void Supprimer(Composant composant) {
+        this.mesComposants.remove(composant);
+    }
+    @Override
+    public void Executer() {
+
+    }
+    public void Acceder() {
+
+    }
 }

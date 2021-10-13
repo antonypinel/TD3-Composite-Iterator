@@ -8,18 +8,8 @@ public abstract class Composant {
 
     }
 
+    public abstract void Executer();
+
     /** Methods **/
 
-    public void Ajouter() {
-
-    }
-    public void Supprimer() {
-
-    }
-    public void Executer() {
-
-    }
-    public void Acceder() {
-
-    }
 }
