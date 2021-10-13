@@ -19,9 +19,17 @@ public class CircuitElectrique extends Composant {
     }
     @Override
     public void Executer() {
-
+        for (Composant comp:mesComposants) {
+            comp.Executer();
+        }
     }
-    public void Acceder() {
-
+    public void setComposant(Composant mesComposants) {
+        this.mesComposants = (List<Composant>) mesComposants;
+    }
+    public List<Composant> getComposant() {
+        return mesComposants;
+    }
+    public void Afficher() {
+        System.out.println(mesComposants);
     }
 }
