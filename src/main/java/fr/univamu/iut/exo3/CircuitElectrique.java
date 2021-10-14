@@ -23,7 +23,7 @@ public class CircuitElectrique extends Composant {
             comp.Executer();
         }
     }
-    public void setComposant(Composant mesComposants) {
+    public void getComposant(Composant mesComposants) {
         this.mesComposants = (List<Composant>) mesComposants;
     }
     public List<Composant> getComposant() {
