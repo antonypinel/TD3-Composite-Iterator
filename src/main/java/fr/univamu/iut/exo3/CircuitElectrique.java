@@ -1,4 +1,5 @@
 package fr.univamu.iut.exo3;
+import java.util.ArrayList;
 import java.util.List;
 
 public class CircuitElectrique extends Composant {
@@ -8,7 +9,7 @@ public class CircuitElectrique extends Composant {
     /** Constructors **/
 
     public void CircuitElectrique() {
-        this.mesComposants = mesComposants;
+        this.mesComposants = new ArrayList<Composant>();
     }
 
     public void Ajouter(Composant composant) {
